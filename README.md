@@ -4,6 +4,8 @@ Tiny library for signing and validating URLs. Also exposes an Express middleware
 
 Originally developed for [Quixel](http://quixel.se).
 
+Inspired from [sign-url](https://www.npmjs.org/package/sign-url) and [signed](https://www.npmjs.org/package/signed) both of which didn't really float the boat.
+
 ## Usage ##
 
 ### Initializing the singleton ###
@@ -66,6 +68,9 @@ app.get("/endpoint", signer.verifier({
 
 
 ## History ##
+
+### v0.1.1 ###
+Added some notes in README.md
 
 ### v0.1.0 ###
 Initial release
