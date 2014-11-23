@@ -69,6 +69,9 @@ app.get("/endpoint", signer.verifier({
 
 ## History ##
 
+### v0.1.2 ###
+Cleaned up JSDoc comments
+
 ### v0.1.1 ###
 Added some notes in README.md
 
