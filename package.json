@@ -1,0 +1,29 @@
+{
+  "name": "url-signer",
+  "version": "0.1.0",
+  "description": "Tiny library for signing and validating URLs. Also exposes an Express middleware which is optional to use.",
+  "main": "./lib/signer.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/signer"
+  },
+  "keywords": [
+    "url",
+    "sign",
+    "signature",
+    "secure",
+    "link",
+    "expire"
+  ],
+  "author": "Kamil Waheed <kamilwaheed@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.10.2",
+    "faker": "^2.1.0",
+    "mocha": "^2.0.1",
+    "should": "^4.3.0",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
+}
