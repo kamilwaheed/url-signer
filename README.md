@@ -69,6 +69,9 @@ app.get("/endpoint", signer.verifier({
 
 ## History ##
 
+### v0.1.3 ###
+Type cast options.ttl to Number
+
 ### v0.1.2 ###
 Cleaned up JSDoc comments
 

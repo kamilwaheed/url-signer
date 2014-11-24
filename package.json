@@ -1,6 +1,6 @@
 {
   "name": "url-signer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Tiny library for signing and validating URLs. Also exposes an Express middleware which is optional to use.",
   "main": "./lib/signer.js",
   "scripts": {
