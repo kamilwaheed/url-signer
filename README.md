@@ -27,7 +27,7 @@ signer.init({
 var signedUrl = signer.getSignedUrl("http://site.com?id=50&accessToken=ae75ofjb7402");
 ```
 
-### Validating a URL ###
+### Verifying a URL ###
 
 ```javascript
 var valid = signer.verifySignedUrl(signedUrl);
