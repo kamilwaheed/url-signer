@@ -69,6 +69,9 @@ app.get("/endpoint", signer.verifier({
 
 ## History ##
 
+### v0.1.4 ###
+Fixed a typo in README.md
+
 ### v0.1.3 ###
 Type cast options.ttl to Number
 
